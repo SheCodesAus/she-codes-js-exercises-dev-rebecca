@@ -1,1 +1,5 @@
-console.log("Hello, world!");
+function showName() {
+  let myInput = document.getElementById("name-text");
+
+  console.dir(myInput);
+}
