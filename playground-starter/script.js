@@ -1,5 +1,5 @@
-function showName() {
-  let myInput = document.getElementById("name-text");
+let pets = ["Chilli", "Rex", "Roary", "Fleur", "Bella"]
 
-  console.dir(myInput);
-}
+pets.forEach((pet) => {
+  console.log("Pet: ", pet)
+})
